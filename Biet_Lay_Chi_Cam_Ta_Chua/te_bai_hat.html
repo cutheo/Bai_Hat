@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<section>
+
+  <div class="content">
+    <h2>BIẾT LẤY CHI CẢM TẠ CHÚA</h2>
+    <h2>BIẾT LẤY CHI CẢM TẠ CHÚA</h2>
+  </div>
+
+</section>
+</head>
+</html>
+
+
+<style>
+
+@font-face {
+        font-family: SFU Futura;
+        src: url("https://chiasehay.duckdns.org/SFUFuturaBold.TTF");
+
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: SFU Futura;
+}
+
+body {
+	display: flex;
+    white-space: nowrap;
+    overflow: auto;
+	background: #00000000;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.content {
+	position: relative;
+}
+
+.content h2 {
+	color: WHITE;
+	font-size: 8em;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	
+}
+
+.content h2:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 2px rgb(34, 185, 255);
+}
+
+.content h2:nth-child(2) {
+	color: WHITE;
+	animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
+
+</style>
