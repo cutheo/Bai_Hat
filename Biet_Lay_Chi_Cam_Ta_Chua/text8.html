@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Smoke</title>
+</head>
+<body>
+    <section>
+        <video src="smoke.mp4" autoplay muted></video>
+        <h1>
+            <span>Ngài</span>
+            <span>gìn</span>
+            <span>giữ</span>
+            <span>trọn</span>
+            <span>đời</span>
+            <span>sống</span>
+            <span>con</span>  
+        </h1>
+    </section>
+</body>
+</html>
+
+
+
+<style>
+section{
+height: 100vh;
+background:;
+overflow: hidden;
+
+}
+section::before{
+content: '';
+position: absolute; 
+}
+video{
+object-fit: cover;
+}
+h1{
+margin: 0;
+padding: 0;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+width: 100%;
+text-align: center;
+color: #fff;
+font-size: 4em;
+font-family:sans-serif;
+text-transform: uppercase;
+}
+h1 span{
+display: inline-block;
+animation: animate 0.9s linear forwards;
+}
+@keyframes animate{
+0%{
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px)
+}
+100%{
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter:blur(0)
+}
+}
+h1 span:nth-child(1){
+color:;
+opacity: 0;
+animation-delay: 0.5s;
+}
+h1 span:nth-child(2){
+opacity: 0;
+animation-delay: 0.6s;
+}
+h1 span:nth-child(3){
+opacity: 0;
+animation-delay: 0.7s;
+}
+h1 span:nth-child(4){
+opacity: 0;
+animation-delay: 0.8s;
+}
+h1 span:nth-child(5){
+color:;
+opacity: 0;
+animation-delay: 0.9s;
+}
+h1 span:nth-child(6){
+opacity: 0;
+animation-delay: 1s;
+}
+h1 span:nth-child(7){
+opacity: 0;
+animation-delay: 1.1s;
+}
+h1 span:nth-child(8){
+opacity: 0;
+animation-delay: 1.2s;
+}
+h1 span:nth-child(9){
+opacity: 0;
+animation-delay: 1.3s;
+}
+
+</style>
